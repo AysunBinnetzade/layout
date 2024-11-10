@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bordered {
+    border: 2px solid black;
+     width : 450px;
+    /* height: 100px; */
+    padding: 20px;
+    margin: 15px;
+} 
+
+ .layout{
+    width : 800px;
+    height: 800px; 
+   
+}
+.header{
+ background-color: red;   
+ 
+}
+.nav{
+    background-color: blue;
+   
+
+}
+.section{
+    background-color: yellowgreen;
+    width: 300px;
+    height: 100px;
+}
+.article{
+    background-color: orange;
+    width: 300px;
+    height: 100px;
+}
+.aside{
+    display: flex; 
+    background-color: pink;
+    width: 200px;
+    height: 100px;
+    
+     
+}
+.footer{
+    background-color: grey;
+}
