@@ -3,47 +3,57 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-.bordered {
-    border: 2px solid black;
-     width : 450px;
-    /* height: 100px; */
-    padding: 20px;
-    margin: 15px;
-} 
-
- .layout{
-    width : 800px;
-    height: 800px; 
-   
+.container{
+    width: 90%;
+    margin: 0 auto;
 }
-.header{
- background-color: red;   
- 
+header {
+    background-color: #183e6b;
 }
-.nav{
-    background-color: blue;
-   
-
-}
-.section{
-    background-color: yellowgreen;
-    width: 300px;
-    height: 100px;
-}
-.article{
-    background-color: orange;
-    width: 300px;
-    height: 100px;
-}
-.aside{
-    display: flex; 
-    background-color: pink;
-    width: 200px;
-    height: 100px;
+.navbar {
     
-     
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     padding: 15px 30px; 
 }
-.footer{
-    background-color: grey;
+
+.logo {
+ max-width: 20%;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.pages ul{
+      display: flex;
+     justify-content: space-between;
+}
+
+
+.pages  {
+    font-size: 20px;
+    width: 35%;
+}
+
+
+ ul li a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+li{
+    list-style-type: none;
+}
+
+.button a  {
+    color: white;
+    text-decoration: none;
+}
+.btn {
+    background-color: #39c5f3;
+    padding: 15px;
+    border-radius: 4px;
 }
